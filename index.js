@@ -14,7 +14,7 @@ const insert = "eat"
 story= "The quick brown fox jumps over the lazy dog";
 let x = "The quick brown fox jumps over the lazy dog";
 let y = "brown"
-let f = x.split(y).length -1;
+let f = x.split(y).length ;
 console.log({f})
 
 
@@ -33,4 +33,13 @@ console.log(string2.includes("sitting"))
 
 //Convert the following strings into the specified format:1. UpperCase: "wonderful"2. LowerCase: "amazing", "UndERneath"3. Title case "A wonderful world"
 let word = "wonderful"
-console.log(word.toUppercase)
+console.log(word.toUpperCase())
+
+let word1 = "amazing"
+console.log(word1.toLowerCase())
+
+let word2 = "UndERneath"
+console.log(word2.toLowerCase())
+
+let sentence = "A wonderful world"
+console.log(sentence.toLocaleUpperCase())
